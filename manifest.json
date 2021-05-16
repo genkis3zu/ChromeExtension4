@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "拡張機能サンプル4",
+    "version": "0.0.4",
+    "description": "最小構成" ,
+    "browser_action": {
+        "default_popup": "../html/popup.html"
+    },
+    "background": {
+        "scripts": ["./js/background.js"]
+    },
+    "permissions": [
+        "search"
+    ]
+}
